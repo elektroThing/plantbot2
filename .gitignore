@@ -1,0 +1,56 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Credentials and secrets
+**/credentials.h
+**/.env
+*.key
+*.pem
+
+# Build artifacts
+*.pio/
+.pio/
+build/
+dist/
+*.o
+*.bin
+*.hex
+
+# Logs and databases
+*.log
+*.db
+logs/
+dashboard/plantbot_data.db
+
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
+
+# KiCad backup files
+*-backups/
+*.bak
+*-save.pro
+*-save.sch
+fp-info-cache
